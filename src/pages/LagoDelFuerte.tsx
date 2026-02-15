@@ -5,8 +5,8 @@ import { WaveSection } from '../components/WaveSection';
 import { SpeciesCard } from '../components/SpeciesCard';
 import { PhotoBlock } from '../components/PhotoBlock';
 import { Utensils, Trees, Bike, AlertTriangle, Phone, ShieldAlert} from 'lucide-react';
-export function LagoDique() {
 
+export function LagoDelFuerte() {
   const wildlife = [
   // 🐦 AVES ACUÁTICAS
   {
