@@ -164,7 +164,7 @@ export default function Layout() {
 
 
             <ProjectCard
-              title="Humedal - Los Coipos"
+              title="Humedal Los Coipos"
               subtitle="Proximamente"
               imageUrl="images/humedal.jpg"
               imageAlt="Humedal - Los Coipos"
@@ -172,13 +172,13 @@ export default function Layout() {
               index={1} />
 
 
-            {/* <ProjectCard
-              title="Primates"
-              subtitle="Biodiversidad tropical"
-              imageUrl="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=800&q=80&auto=format&fit=crop"
-              imageAlt="Primate in its natural rainforest habitat"
-              href="#primates"
-              index={2} /> */}
+            <ProjectCard
+              title="Sierras"
+              subtitle="Proximamente"
+              imageUrl="images/cerro-venado-tandil.jpg"
+              imageAlt="Sierras de Tandil"
+              href="#"
+              index={2} />
 
           </div>
         </section>
@@ -227,7 +227,7 @@ export default function Layout() {
               <div className="flex flex-col items-start md:items-end gap-4">
                 <div className="flex gap-6">
                   <a
-                    href="#contacto"
+                    href="https://walink.co/fa3ab2"
                     className="font-['Oswald'] text-xs uppercase tracking-[0.2em] text-[#e5e5e5]/60 hover:text-[#96C561] transition-colors duration-300">
 
                     Contacto
@@ -246,7 +246,15 @@ export default function Layout() {
                   </a> */}
                 </div>
                 <p className="text-[#e5e5e5]/30 text-xs">
-                  © 2026 Conocer para Cuidar. Todos los derechos reservados. Created Matco.
+                  © 2026 Conocer para Cuidar. Todos los derechos reservados. Desarrollado por{' '}
+                                <a
+                                  href="https://matco-software.vercel.app"
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="font-semibold text-[#F5F1E6] hover:text-green-300 transition-colors"
+                                >
+                                  Matco
+                                </a>.
                 </p>
               </div>
             </motion.div>
